@@ -40,10 +40,8 @@
       >
         <v-row>
           <v-col>
-            <v-sheet width="1000px" height="1000px" >
-              <ChatLine></ChatLine>
-              <ChatLine></ChatLine>
-              <ChatLine></ChatLine>
+            <v-sheet width="400px" height="600px" >
+              <ChatBoard></ChatBoard>
             </v-sheet>
 
           </v-col>
@@ -60,9 +58,10 @@
 
 <script>
     import ChatLine from "./chat/ChatLine";
+    import ChatBoard from "./chat/ChatBoard";
     export default {
         name: 'Dark',
-        components: {ChatLine},
+        components: {ChatBoard, ChatLine},
         props: {
             source: String,
         },

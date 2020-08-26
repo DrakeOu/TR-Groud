@@ -1,5 +1,5 @@
 <template>
-  <div class="chatLine" style="margin-top: 10px">
+  <div class="chatLine" style="margin-top: 10px; margin-left: 10px; display: flex; justify-content: flex-start">
     <v-avatar>
       <img
         src="https://cdn.vuetifyjs.com/images/john.jpg"
